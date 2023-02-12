@@ -1,0 +1,17 @@
+<template>
+  <div class="spinner">
+    <!-- eslint-disable -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: block; margin: auto; background: 0 0;" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+      <rect x="47.5" y="24" rx="2.5" ry="6" width="5" height="12" fill="currentColor"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.1363636363636365s" begin="-1.0416666666666665s" repeatCount="indefinite"/></rect><rect x="47.5" y="24" rx="2.5" ry="6" width="5" height="12" fill="currentColor" transform="rotate(30 50 50)"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.1363636363636365s" begin="-0.9469696969696969s" repeatCount="indefinite"/></rect><rect x="47.5" y="24" rx="2.5" ry="6" width="5" height="12" fill="currentColor" transform="rotate(60 50 50)"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.1363636363636365s" begin="-0.8522727272727272s" repeatCount="indefinite"/></rect><rect x="47.5" y="24" rx="2.5" ry="6" width="5" height="12" fill="currentColor" transform="rotate(90 50 50)"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.1363636363636365s" begin="-0.7575757575757576s" repeatCount="indefinite"/></rect><rect x="47.5" y="24" rx="2.5" ry="6" width="5" height="12" fill="currentColor" transform="rotate(120 50 50)"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.1363636363636365s" begin="-0.6628787878787878s" repeatCount="indefinite"/></rect><rect x="47.5" y="24" rx="2.5" ry="6" width="5" height="12" fill="currentColor" transform="rotate(150 50 50)"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.1363636363636365s" begin="-0.5681818181818181s" repeatCount="indefinite"/></rect><rect x="47.5" y="24" rx="2.5" ry="6" width="5" height="12" fill="currentColor" transform="rotate(180 50 50)"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.1363636363636365s" begin="-0.47348484848484845s" repeatCount="indefinite"/></rect><rect x="47.5" y="24" rx="2.5" ry="6" width="5" height="12" fill="currentColor" transform="rotate(210 50 50)"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.1363636363636365s" begin="-0.3787878787878788s" repeatCount="indefinite"/></rect><rect x="47.5" y="24" rx="2.5" ry="6" width="5" height="12" fill="currentColor" transform="rotate(240 50 50)"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.1363636363636365s" begin="-0.28409090909090906s" repeatCount="indefinite"/></rect><rect x="47.5" y="24" rx="2.5" ry="6" width="5" height="12" fill="currentColor" transform="rotate(270 50 50)"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.1363636363636365s" begin="-0.1893939393939394s" repeatCount="indefinite"/></rect><rect x="47.5" y="24" rx="2.5" ry="6" width="5" height="12" fill="currentColor" transform="rotate(300 50 50)"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.1363636363636365s" begin="-0.0946969696969697s" repeatCount="indefinite"/></rect><rect x="47.5" y="24" rx="2.5" ry="6" width="5" height="12" fill="currentColor" transform="rotate(330 50 50)"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1.1363636363636365s" begin="0s" repeatCount="indefinite"/></rect>
+    </svg>
+    <!-- eslint-enable -->
+  </div>
+</template>
+
+<style lang="scss" scoped>
+.spinner {
+  width: 100%;
+  height: 100%;
+  color: $c-primary;
+}
+</style>
